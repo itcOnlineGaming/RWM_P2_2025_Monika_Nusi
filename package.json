@@ -1,0 +1,30 @@
+ 
+{
+  "name": "rwm-p2-tree-timer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev --workspace=demo",
+    "build": "npm run build --workspace=packages/tree-timer && npm run build --workspace=demo",
+    "preview": "npm run preview --workspace=demo",
+    "test": "npm run test --workspace=packages/tree-timer",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "workspaces": [
+    "packages/*",
+    "demo"
+  ],
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.7",
+    "@storybook/addon-interactions": "^7.6.7",
+    "@storybook/addon-links": "^7.6.7",
+    "@storybook/blocks": "^7.6.7",
+    "@storybook/svelte": "^7.6.7",
+    "@storybook/sveltekit": "^7.6.7",
+    "@storybook/test": "^7.6.7",
+    "storybook": "^7.6.7",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1"
+  }
+}

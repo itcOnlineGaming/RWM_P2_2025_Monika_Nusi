@@ -1,0 +1,56 @@
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+node_modules
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
+/demo/.svelte-kit
+
+# Build output
+dist
+/dist
+/packages/*/dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Coverage
+coverage
+
+# Editors and IDEs
+.vscode/
+.idea/
+.history/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Misc
+thumbs.db
