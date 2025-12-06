@@ -16,9 +16,9 @@ node_modules
 /demo/.svelte-kit
 
 # Build output
-dist
+
 /dist
-/packages/*/dist
+
 
 # OS
 .DS_Store
