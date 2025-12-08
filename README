@@ -1,0 +1,80 @@
+USER TEST PLAN
+
+1. Purpose of the Test
+
+The goal is to evaluate whether the Stress Timer component helps users stay focused by:
+
+Starting a timed session easily
+
+Understanding the visual feedback (tree growth)
+
+Adjusting duration
+
+Pausing and resetting
+
+2. Test Environment
+
+Device: Laptop 
+
+Browser: Chrome 
+
+Build: Demo app running locally or deployed version
+
+5. Tasks
+
+
+## Task 1 — Start a Timer Session
+
+Steps for tester:
+
+Log in
+
+Navigate to Timer page
+
+Press Start
+
+Success:
+
+Timer starts without confusion
+
+Tree begins animation
+
+## Task 2 — Understand Visual Feedback
+
+Steps:
+
+Watch the tree grow
+
+
+Success:
+
+Tester can explain what the visuals mean without you explaining
+
+## Task 3 — Change Session Duration
+
+Steps:
+
+Change duration from default (e.g., 2 → 5 minutes)
+
+Start a session
+
+Success:
+
+Timer updates correctly
+
+## Task 4 — Pause and Reset
+
+Steps:
+
+Pause
+
+Reset
+
+Start again
+
+Success:
+
+All controls behave correctly
+
+No freezing or broken animation
+
